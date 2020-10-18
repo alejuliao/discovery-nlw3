@@ -79,8 +79,17 @@ function toggleSelect(event){
     button.classList.add('active')
 
     //atualizar o meu input hidden com o valor selecionado
-    const input = document.querySelector('[name="open_on_weekends]')
+    const input = document.querySelector('[name="open_on_weekends"]')
     input.value = button.dataset.value
 }
 
+//desafio
+// function validate(event) {
+//     //validar se lat e lng estao preenchidos
+//     const needsLatAndLng = true;
+//     if(needsLatAndLng) {
+//         event.preventDefault()
+//         alert(' valor nulo')
+//     }
+// }
 
